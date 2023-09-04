@@ -1,6 +1,6 @@
 import './Menu.css'
 import { useState } from 'react'
-import { SiYourtraveldottv, SiConvertio } from 'react-icons/si'
+import { SiConvertio } from 'react-icons/si'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { BsFillHouseDoorFill } from 'react-icons/bs'
 import { GiBrazil } from 'react-icons/gi'
@@ -12,7 +12,7 @@ export default function Menu(){
 
     const [isOpen,setIsOpen] = useState<boolean>(false)
 
-    function abrirMenu(){
+    const abrirMenu = () => {
         setIsOpen(!isOpen)
     }
 
@@ -66,7 +66,7 @@ export default function Menu(){
                         <AiOutlineClose className='fecharMenuIcon' onClick={abrirMenu}/>
                     </div>
 
-                    {menuHeader.map((opcoes:any) => (
+                    {menuHeader.map((opcoes:any|string) => (
                         <li key={opcoes}>
                             <button>
                                 <span>{opcoes.icon}</span>
