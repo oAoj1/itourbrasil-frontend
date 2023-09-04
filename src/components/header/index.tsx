@@ -1,6 +1,6 @@
 import './Header.css'
 import Menu from './menu'
-import { SiYourtraveldottv, SiConvertio } from 'react-icons/si'
+import { SiYourtraveldottv } from 'react-icons/si'
 
 export default function Header(){
     return(

@@ -66,7 +66,7 @@ export default function Menu(){
                         <AiOutlineClose className='fecharMenuIcon' onClick={abrirMenu}/>
                     </div>
 
-                    {menuHeader.map(opcoes => (
+                    {menuHeader.map((opcoes:any) => (
                         <li key={opcoes}>
                             <button>
                                 <span>{opcoes.icon}</span>
