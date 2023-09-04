@@ -58,3 +58,21 @@ header{
     transform: translateY(-3px);
     filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.3));
 }
+
+@media screen and (max-width:768px){
+
+    .logoHeader svg{
+        width: 30px;
+        height: 30px;
+        filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+    }
+
+    .logoHeader h2{
+        font-size: 1em;
+    }
+
+    .logarRegistrarHeader button{
+        font-size: 0.75em;
+    }
+
+}
