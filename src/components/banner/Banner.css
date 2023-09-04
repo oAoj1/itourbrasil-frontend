@@ -1,0 +1,42 @@
+.carrossel{
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background: linear-gradient(45deg, #00ffff,#00ff1a);
+}
+
+.lugares{
+    display: flex;
+    align-items: center;
+    outline: 0;
+}
+
+.lugares img{
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+    border-radius: 10px;
+    margin:1rem auto 0 auto;
+}
+
+.lugares h2{
+    width: 100%;
+    max-width: 50%;
+    font-size: 4em;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+}
+
+.lugares:hover{
+    cursor: grab;
+}
+
+.lugares:active{
+    cursor: grabbing;
+}

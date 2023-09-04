@@ -1,0 +1,153 @@
+header{
+    position: fixed;
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader h2{
+    margin: 0 0.25rem;
+}
+
+.logoHeader h2:nth-of-type(1){
+    color: #000;
+}
+
+.logoHeader h2 span:nth-of-type(1){
+    color: #2038d4;
+}
+
+.logoHeader h2:nth-of-type(2){
+    color: green;
+}
+
+.logoHeader svg{
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+}
+
+.optionHeader{
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer{
+    margin: 0 0 0 1.5rem;
+}
+
+.abrirMenuIcon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.abrirMenuIcon:hover{
+    background-color: #ccc;
+}
+
+.menuHeader{
+    display: none;
+    position: fixed;
+}
+
+.menuHeaderOpen{
+    border-radius: 20px 0 0 20px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    z-index: 9;
+    width: 100%;
+    max-width: 20vw;
+    height: 100%;
+    background-color: #000;
+}
+
+.menuHeaderOpen li{
+    margin: 0.25rem 0;
+    padding:0 0.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.menuHeaderOpen li:hover{
+    background-color: #00ffff;
+}
+
+.menuHeaderOpen button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 0.85em;
+}
+
+.menuHeaderOpen button span{
+    margin: 0 0.5rem;
+}
+
+.iconsContainer{
+    padding: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fecharMenuIcon{
+    color: #fff;
+    transition: 0.2s;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.fecharMenuIcon:hover{
+    color: #ff0000;
+}
+
+.logoMenuHeader{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #00ffff;
+    margin: 0.5rem;
+}
+
+.logarRegistrarHeader button{
+    border-radius: 20px;
+    font-size: 1em;
+    border: 0;
+    margin: 0 0.20rem;
+    border: 1px solid #000;
+    font-weight: bold;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logarRegistrarHeader button:nth-of-type(2){
+    background-color: #000;
+    color: #fff;
+}
+
+.logarRegistrarHeader button:hover{
+    transform: translateY(-3px);
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.3));
+}
