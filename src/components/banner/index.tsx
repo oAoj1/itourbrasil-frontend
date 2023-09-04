@@ -1,9 +1,6 @@
 import './Banner.css'
 import Slider from 'react-slick';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 export default function Banner(){
 
