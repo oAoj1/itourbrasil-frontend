@@ -1,10 +1,33 @@
+main{
+    width: 100%;
+    padding: 7.5rem 1rem;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #00ffff,#00ff1a);
+}
+
+.tituloBanner .logo svg{
+    width: 150px;
+    height: 150px;
+}
+
+.tituloBanner .logo h2{
+    font-size: 3em;
+}
+
+.tituloBanner h3{
+    color: #003030;
+    font-size: 1em;
+    margin: 1rem 0;
+    text-align: center;
+}
+
 .carrossel{
-    padding: 10rem 0 0 0;
     width: 100%;
     height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    background: linear-gradient(45deg, #00ffff,#00ff1a);
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .lugares{
@@ -16,17 +39,17 @@
 .lugares img{
     width: 100%;
     height: 100%;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 60%;
+    max-height: 60%;
     filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
     border-radius: 10px;
-    margin:1rem auto 0 auto;
+    margin:1rem auto;
 }
 
 .lugares h2{
     width: 100%;
     max-width: 50%;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: lighter;
     text-transform: capitalize;
     margin: auto;
@@ -46,5 +69,4 @@
         margin: 1rem auto;
         font-size: 2em;
     }
-    
 }

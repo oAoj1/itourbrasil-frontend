@@ -1,12 +1,13 @@
 import './Menu.css'
 import { useState } from 'react'
 import { SiConvertio } from 'react-icons/si'
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineClose, AiOutlineUser } from 'react-icons/ai'
 import { BsFillHouseDoorFill } from 'react-icons/bs'
 import { GiBrazil } from 'react-icons/gi'
 import { RiReservedFill } from 'react-icons/ri'
 import { FaBook, FaRoute, FaComments } from 'react-icons/fa'
 import { FiHelpCircle } from 'react-icons/fi'
+import { BiLogOutCircle } from 'react-icons/bi'
 
 export default function Menu(){
 
@@ -74,6 +75,15 @@ export default function Menu(){
                             </button>
                         </li>
                     ))}
+
+                    <div className="userMenuContainer">
+                        <AiOutlineUser className='logoUserMenu'/>
+                        <h2>Usuário</h2>
+                        <button>
+                            <BiLogOutCircle className='logOutButtonUserMenu'/>
+                        </button>
+                    </div>
+
                 </ul>
             </div>
         </div>

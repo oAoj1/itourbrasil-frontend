@@ -10,32 +10,7 @@ header{
     z-index: 9;
 }
 
-.logoHeader{
-    display: flex;
-    align-items: center;
-}
 
-.logoHeader h2{
-    margin: 0 0.25rem;
-}
-
-.logoHeader h2:nth-of-type(1){
-    color: #000;
-}
-
-.logoHeader h2 span:nth-of-type(1){
-    color: #2038d4;
-}
-
-.logoHeader h2:nth-of-type(2){
-    color: green;
-}
-
-.logoHeader svg{
-    width: 50px;
-    height: 50px;
-    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
-}
 
 .logarRegistrarHeader button{
     border-radius: 20px;

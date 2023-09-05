@@ -1,5 +1,6 @@
 import './Banner.css'
 import Slider from 'react-slick';
+import LogoITour from '../logoITour'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -50,6 +51,10 @@ export default function Banner(){
   
     return(
         <main>
+            <div className="tituloBanner">
+                <LogoITour/>
+                <h3>Texto de efeito para comprar cliente</h3>
+            </div>
             <Slider {...settings} className='carrossel'>
                 {listaLugares.map(lugares => (
                     <div className='lugares' key={lugares.nome}>
