@@ -53,7 +53,7 @@ export default function Banner(){
         <main>
             <div className="tituloBanner">
                 <LogoITour/>
-                <h3>Texto de efeito para comprar cliente</h3>
+                <h3>A sua janela para as belezas inexploradas</h3>
             </div>
             <Slider {...settings} className='carrossel'>
                 {listaLugares.map(lugares => (
