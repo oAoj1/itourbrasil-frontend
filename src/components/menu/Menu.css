@@ -32,6 +32,7 @@
     flex-direction: column;
     list-style-type: none;
     z-index: 9;
+    transition:0.2s;
     width: 100%;
     max-width: 280px;
     height: 100vh;
